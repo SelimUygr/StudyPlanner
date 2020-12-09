@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cerceve"
+        android:layout_width="390sp"
+        android:layout_height="710sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp">
+
+        <TextView
+            android:id="@+id/firstPlanned"
+            android:textSize="20sp"
+            android:text="1."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNamePlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/firstPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/firstPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/firstPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNamePlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/secondPlanned"
+            android:textSize="20sp"
+            android:text="2."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstPlanned"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameTwo"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/secondPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/secondPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameTwoTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/secondPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFourPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/thirdPlanned"
+            android:textSize="20sp"
+            android:text="3."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/secondPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameThreePlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/thirdPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/thirdPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameThreeTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/thirdPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameThreePlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/fourthPlanned"
+            android:textSize="20sp"
+            android:text="4."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thirdPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameFourPlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/fourthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/fourthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameFourTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fourthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFourPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/fifthPlanned"
+            android:textSize="20sp"
+            android:text="5."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fourthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/lessonNameFivePlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/fifthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/fifthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameFiveTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fifthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFivePlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sixthPlanned"
+            android:textSize="20sp"
+            android:text="6."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fifthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameSixPlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/sixthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/sixthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameSixTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sixthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameSixPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/seventhPlanned"
+            android:textSize="20sp"
+            android:text="7."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sixthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameSevenPlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/seventhPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/seventhPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameSevenTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/seventhPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameSevenPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/eighthPlanned"
+            android:textSize="20sp"
+            android:text="8."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seventhPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameEightPlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/eighthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/eighthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameEightTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/eighthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameEightPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/ninthPlanned"
+            android:textSize="20sp"
+            android:text="9."
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/eighthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameNinePlanned"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/ninthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/ninthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameNineTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ninthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameNinePlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tenthPlanned"
+            android:textSize="20sp"
+            android:text="10."
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ninthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameTenPlanned"
+            android:layout_width="289sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/tenthPlanned"
+            app:layout_constraintBottom_toBottomOf="@+id/tenthPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/lessonNameTenTimesPlanned"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tenthPlanned"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameTenPlanned"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

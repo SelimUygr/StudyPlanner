@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/taskField"
+        android:layout_width="wrap_content"
+        android:layout_height="430sp"
+        android:layout_marginTop="100sp"
+
+        android:layout_marginLeft="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/widgetField">
+        <TextView
+            android:id="@+id/first"
+            android:textSize="20sp"
+            android:text="1."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonName"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/first"
+            app:layout_constraintBottom_toBottomOf="@+id/first"/>
+
+        <EditText
+            android:id="@+id/lessonNameTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/first"
+            app:layout_constraintLeft_toRightOf="@+id/lessonName"/>
+        <TextView
+            android:id="@+id/second"
+            android:textSize="20sp"
+            android:text="2."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/first"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameTwo"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/second"
+            app:layout_constraintBottom_toBottomOf="@+id/second"/>
+
+        <EditText
+            android:id="@+id/lessonNameTwoTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/second"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFour"/>
+        <TextView
+            android:id="@+id/third"
+            android:textSize="20sp"
+            android:text="3."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/second"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameThree"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/third"
+            app:layout_constraintBottom_toBottomOf="@+id/third"/>
+
+        <EditText
+            android:id="@+id/lessonNameThreeTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/third"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameThree"/>
+        <TextView
+            android:id="@+id/fourth"
+            android:textSize="20sp"
+            android:text="4."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/third"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameFour"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/fourth"
+            app:layout_constraintBottom_toBottomOf="@+id/fourth"/>
+
+        <EditText
+            android:id="@+id/lessonNameFourTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fourth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFour"/>
+
+        <TextView
+            android:id="@+id/fifth"
+            android:textSize="20sp"
+            android:text="5."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fourth"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameFive"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/fifth"
+            app:layout_constraintBottom_toBottomOf="@+id/fifth"/>
+
+        <EditText
+            android:id="@+id/lessonNameFiveTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/fifth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameFive"/>
+
+        <TextView
+            android:id="@+id/sixth"
+            android:textSize="20sp"
+            android:text="6."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fifth"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameSix"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/sixth"
+            app:layout_constraintBottom_toBottomOf="@+id/sixth"/>
+
+        <EditText
+            android:id="@+id/lessonNameSixTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sixth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameSix"/>
+
+        <TextView
+            android:id="@+id/seventh"
+            android:textSize="20sp"
+            android:text="7."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sixth"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameSeven"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/seventh"
+            app:layout_constraintBottom_toBottomOf="@+id/seventh"/>
+
+        <EditText
+            android:id="@+id/lessonNameSevenTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/seventh"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameSeven"/>
+
+        <TextView
+            android:id="@+id/eighth"
+            android:textSize="20sp"
+            android:text="8."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seventh"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameEight"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/eighth"
+            app:layout_constraintBottom_toBottomOf="@+id/eighth"/>
+
+        <EditText
+            android:id="@+id/lessonNameEightTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/eighth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameEight"/>
+
+        <TextView
+            android:id="@+id/ninth"
+            android:textSize="20sp"
+            android:text="9."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/eighth"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameNine"
+            android:layout_width="300sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/ninth"
+            app:layout_constraintBottom_toBottomOf="@+id/ninth"/>
+
+        <EditText
+            android:id="@+id/lessonNameNineTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ninth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameNine"/>
+        <TextView
+            android:id="@+id/tenth"
+            android:textSize="20sp"
+            android:text="10."
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ninth"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/lessonNameTen"
+            android:layout_width="289sp"
+            android:layout_height="40sp"
+            app:layout_constraintLeft_toRightOf="@+id/tenth"
+            app:layout_constraintBottom_toBottomOf="@+id/tenth"/>
+
+        <EditText
+            android:id="@+id/lessonNameTenTimes"
+            android:layout_width="30sp"
+            android:layout_height="40sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tenth"
+            app:layout_constraintLeft_toRightOf="@+id/lessonNameTen"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/widgetField"
+        android:layout_width="347sp"
+        android:layout_height="150sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/studyTime"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Available Study Time:"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"/>
+
+        <EditText
+            android:hint="Per Week"
+            android:id="@+id/studyTimeEditText"
+            android:layout_width="136sp"
+            android:layout_height="40sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/studyTime"/>
+        <Button
+            android:id="@+id/cancelPlan"
+            android:text="Cancel"
+            app:layout_constraintTop_toBottomOf="@+id/studyTime"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/makePlan"
+            android:text="Create"
+            app:layout_constraintTop_toBottomOf="@+id/studyTime"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
